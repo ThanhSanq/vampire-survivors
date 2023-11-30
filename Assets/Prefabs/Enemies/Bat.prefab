@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5045143658367074808}
   - component: {fileID: 5045143658367074809}
   - component: {fileID: 5045143658367074810}
-  - component: {fileID: 1185464202302318825}
+  - component: {fileID: 5554643120467866442}
   - component: {fileID: 6843447579611562439}
   - component: {fileID: 4613723613657582227}
   m_Layer: 0
@@ -137,7 +137,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.2}
   m_EdgeRadius: 0
---- !u!114 &1185464202302318825
+--- !u!114 &5554643120467866442
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b67ad94a74a86f46af345ff7bc871a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyData: {fileID: 11400000, guid: 918b052f2a229b54da539dd10f61a44a, type: 2}
+  moveSpeed: 5
 --- !u!114 &6843447579611562439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,6 +163,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyData: {fileID: 11400000, guid: 918b052f2a229b54da539dd10f61a44a, type: 2}
+  currentMoveSpeed: 0
+  currentHealth: 0
+  currentDamage: 0
 --- !u!114 &4613723613657582227
 MonoBehaviour:
   m_ObjectHideFlags: 0
